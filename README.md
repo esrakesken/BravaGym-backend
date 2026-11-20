@@ -37,7 +37,7 @@ Python dependencies use the ranges in [requirements.txt](requirements.txt) and [
 Requirements: Git and Python 3.12. These commands use a macOS/Linux shell; on Windows, activate the virtual environment with `.venv\Scripts\Activate.ps1` in PowerShell.
 
 ```bash
-git clone --branch dev https://github.com/T4-P2-BravaGym/BravaGym-backend.git
+git clone https://github.com/esrakesken/BravaGym-backend.git
 cd BravaGym-backend
 python3.12 -m venv .venv
 source .venv/bin/activate
@@ -76,7 +76,7 @@ Open [Swagger](http://localhost:8000/docs), select **Authorize**, and enter a de
 | Administrator | `admin@example.com` |
 | Superadministrator | `superadmin@example.com` |
 
-[Health](http://localhost:8000/health) returns `{"status":"ok"}` when the server is running. [ReDoc](http://localhost:8000/redoc) and [OpenAPI JSON](http://localhost:8000/openapi.json) describe the API. Start the frontend separately using its [README](https://github.com/T4-P2-BravaGym/BravaGym-frontend/blob/dev/README.md); use `localhost` for both servers so session cookies work consistently.
+[Health](http://localhost:8000/health) returns `{"status":"ok"}` when the server is running. [ReDoc](http://localhost:8000/redoc) and [OpenAPI JSON](http://localhost:8000/openapi.json) describe the API. Start the frontend separately using its [README](https://github.com/esrakesken/BravaGym-frontend/blob/main/README.md); use `localhost` for both servers so session cookies work consistently.
 
 ## Project structure
 
